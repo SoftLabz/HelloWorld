@@ -49,7 +49,7 @@ public class AppTest
     }
 
     public void testStrings() {
-        String foo = "foo"
+        String foo = "foo";
         assertEquals("foo", foo);
     }
 }
