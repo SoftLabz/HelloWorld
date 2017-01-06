@@ -39,4 +39,8 @@ public class AppTest
     public void testNumber() {
         assertTrue(1 < 2);
     }
+
+    public void testFail() {
+        assertTrue(false);
+    }
 }
