@@ -43,4 +43,8 @@ public class AppTest
     public void testFail() {
         assertTrue(false);
     }
+
+    public void testObject() {
+        assertNotNull(new String());
+    }
 }
