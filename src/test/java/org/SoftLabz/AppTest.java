@@ -47,4 +47,9 @@ public class AppTest
     public void testObject() {
         assertNotNull(new String());
     }
+
+    public void testStrings() {
+        String foo = "foo"
+        assertEquals("foo", foo);
+    }
 }
