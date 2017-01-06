@@ -35,4 +35,8 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    public void testNumber() {
+        assertTrue(1 < 2);
+    }
 }
